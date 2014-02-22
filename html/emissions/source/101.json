@@ -1,0 +1,386 @@
+{
+   "2005" : {
+      "renewables" : {
+         "ch4" : 33,
+         "co2" : 0,
+         "no" : 7,
+         "gwp" : 2859
+      },
+      "fossil_fuels" : {
+         "ch4" : 1528,
+         "co2" : 2890833,
+         "no" : 54,
+         "gwp" : 2939624
+      },
+      "unrelated" : {
+         "ch4" : 3461,
+         "co2" : 8226,
+         "no" : 0,
+         "gwp" : 80911
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   },
+   "2004" : {
+      "renewables" : {
+         "ch4" : 19,
+         "co2" : 0,
+         "no" : 6,
+         "gwp" : 2241
+      },
+      "fossil_fuels" : {
+         "ch4" : 1509,
+         "co2" : 2950117,
+         "no" : 53,
+         "gwp" : 2998319
+      },
+      "unrelated" : {
+         "ch4" : 3388,
+         "co2" : 27915,
+         "no" : 0,
+         "gwp" : 99071
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   },
+   "2010" : {
+      "renewables" : {
+         "ch4" : 104,
+         "co2" : 0,
+         "no" : 10,
+         "gwp" : 5364
+      },
+      "fossil_fuels" : {
+         "ch4" : 944,
+         "co2" : 2663391,
+         "no" : 51,
+         "gwp" : 2698888
+      },
+      "unrelated" : {
+         "ch4" : 2568,
+         "co2" : 6025,
+         "no" : 0,
+         "gwp" : 59961
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   },
+   "2008" : {
+      "renewables" : {
+         "ch4" : 48,
+         "co2" : 0,
+         "no" : 5,
+         "gwp" : 2458
+      },
+      "fossil_fuels" : {
+         "ch4" : 1090,
+         "co2" : 2776878,
+         "no" : 55,
+         "gwp" : 2816793
+      },
+      "unrelated" : {
+         "ch4" : 2810,
+         "co2" : 9588,
+         "no" : 0,
+         "gwp" : 68594
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   },
+   "2001" : {
+      "renewables" : {
+         "ch4" : 9,
+         "co2" : 0,
+         "no" : 4,
+         "gwp" : 1274
+      },
+      "fossil_fuels" : {
+         "ch4" : 1639,
+         "co2" : 3242347,
+         "no" : 55,
+         "gwp" : 3293867
+      },
+      "unrelated" : {
+         "ch4" : 3517,
+         "co2" : 33995,
+         "no" : 10,
+         "gwp" : 110920
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   },
+   "2007" : {
+      "renewables" : {
+         "ch4" : 44,
+         "co2" : 0,
+         "no" : 7,
+         "gwp" : 3158
+      },
+      "fossil_fuels" : {
+         "ch4" : 1271,
+         "co2" : 3105337,
+         "no" : 60,
+         "gwp" : 3150777
+      },
+      "unrelated" : {
+         "ch4" : 2801,
+         "co2" : 11344,
+         "no" : 0,
+         "gwp" : 70175
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   },
+   "2002" : {
+      "renewables" : {
+         "ch4" : 9,
+         "co2" : 0,
+         "no" : 5,
+         "gwp" : 1643
+      },
+      "fossil_fuels" : {
+         "ch4" : 1494,
+         "co2" : 3149243,
+         "no" : 51,
+         "gwp" : 3196481
+      },
+      "unrelated" : {
+         "ch4" : 3592,
+         "co2" : 30072,
+         "no" : 1,
+         "gwp" : 105744
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   },
+   "2011" : {
+      "renewables" : {
+         "ch4" : 128,
+         "co2" : 0,
+         "no" : 12,
+         "gwp" : 6466
+      },
+      "fossil_fuels" : {
+         "ch4" : 810,
+         "co2" : 2369830,
+         "no" : 48,
+         "gwp" : 2401611
+      },
+      "unrelated" : {
+         "ch4" : 2515,
+         "co2" : 7347,
+         "no" : 0,
+         "gwp" : 60167
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   },
+   "2000" : {
+      "renewables" : {
+         "ch4" : 8,
+         "co2" : 0,
+         "no" : 4,
+         "gwp" : 1309
+      },
+      "fossil_fuels" : {
+         "ch4" : 2158,
+         "co2" : 3147637,
+         "no" : 51,
+         "gwp" : 3208806
+      },
+      "unrelated" : {
+         "ch4" : 3870,
+         "co2" : 37614,
+         "no" : 53,
+         "gwp" : 135323
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   },
+   "2006" : {
+      "renewables" : {
+         "ch4" : 40,
+         "co2" : 0,
+         "no" : 7,
+         "gwp" : 3071
+      },
+      "fossil_fuels" : {
+         "ch4" : 1231,
+         "co2" : 3082568,
+         "no" : 55,
+         "gwp" : 3125474
+      },
+      "unrelated" : {
+         "ch4" : 3681,
+         "co2" : 10501,
+         "no" : 0,
+         "gwp" : 87804
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   },
+   "2009" : {
+      "renewables" : {
+         "ch4" : 47,
+         "co2" : 0,
+         "no" : 7,
+         "gwp" : 3104
+      },
+      "fossil_fuels" : {
+         "ch4" : 807,
+         "co2" : 2994456,
+         "no" : 55,
+         "gwp" : 3028451
+      },
+      "unrelated" : {
+         "ch4" : 2712,
+         "co2" : 6457,
+         "no" : 0,
+         "gwp" : 63416
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   },
+   "2003" : {
+      "renewables" : {
+         "ch4" : 11,
+         "co2" : 0,
+         "no" : 5,
+         "gwp" : 1826
+      },
+      "fossil_fuels" : {
+         "ch4" : 1465,
+         "co2" : 3317246,
+         "no" : 57,
+         "gwp" : 3365542
+      },
+      "unrelated" : {
+         "ch4" : 3674,
+         "co2" : 26641,
+         "no" : 0,
+         "gwp" : 103785
+      },
+      "electricity" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "districtheating" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      }
+   }
+}

@@ -1,0 +1,1106 @@
+{
+   "2005" : {
+      "government" : {
+         "ch4" : 2,
+         "co2" : 3997,
+         "no" : 0,
+         "gwp" : 4087
+      },
+      "transport" : {
+         "ch4" : 4,
+         "co2" : 16934,
+         "no" : 1,
+         "gwp" : 17183
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 85,
+         "no" : 0,
+         "gwp" : 86
+      },
+      "households" : {
+         "ch4" : 55,
+         "co2" : 88413,
+         "no" : 3,
+         "gwp" : 90397
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 271,
+         "no" : 0,
+         "gwp" : 277
+      },
+      "service" : {
+         "ch4" : 1,
+         "co2" : 1113,
+         "no" : 0,
+         "gwp" : 1138
+      },
+      "industry" : {
+         "ch4" : 6,
+         "co2" : 105043,
+         "no" : 1,
+         "gwp" : 105377
+      },
+      "agriculture" : {
+         "ch4" : 1873,
+         "co2" : 19055,
+         "no" : 135,
+         "gwp" : 100130
+      },
+      "utilities" : {
+         "ch4" : 878,
+         "co2" : 14298,
+         "no" : 0,
+         "gwp" : 32861
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 6089,
+         "no" : 0,
+         "gwp" : 6175
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 519,
+         "no" : 0,
+         "gwp" : 529
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 376,
+         "no" : 0,
+         "gwp" : 383
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 292,
+         "no" : 0,
+         "gwp" : 297
+      }
+   },
+   "2004" : {
+      "government" : {
+         "ch4" : 3,
+         "co2" : 4041,
+         "no" : 0,
+         "gwp" : 4133
+      },
+      "transport" : {
+         "ch4" : 4,
+         "co2" : 16759,
+         "no" : 1,
+         "gwp" : 17011
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 100,
+         "no" : 0,
+         "gwp" : 102
+      },
+      "households" : {
+         "ch4" : 53,
+         "co2" : 87148,
+         "no" : 3,
+         "gwp" : 89070
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 326,
+         "no" : 0,
+         "gwp" : 333
+      },
+      "service" : {
+         "ch4" : 1,
+         "co2" : 1085,
+         "no" : 0,
+         "gwp" : 1110
+      },
+      "industry" : {
+         "ch4" : 5,
+         "co2" : 101484,
+         "no" : 1,
+         "gwp" : 101782
+      },
+      "agriculture" : {
+         "ch4" : 1987,
+         "co2" : 18871,
+         "no" : 142,
+         "gwp" : 104681
+      },
+      "utilities" : {
+         "ch4" : 935,
+         "co2" : 15782,
+         "no" : 0,
+         "gwp" : 35536
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 6440,
+         "no" : 0,
+         "gwp" : 6529
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 593,
+         "no" : 0,
+         "gwp" : 605
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 366,
+         "no" : 0,
+         "gwp" : 373
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 392,
+         "no" : 0,
+         "gwp" : 399
+      }
+   },
+   "2010" : {
+      "government" : {
+         "ch4" : 3,
+         "co2" : 4245,
+         "no" : 0,
+         "gwp" : 4357
+      },
+      "transport" : {
+         "ch4" : 3,
+         "co2" : 22030,
+         "no" : 1,
+         "gwp" : 22302
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 115,
+         "no" : 0,
+         "gwp" : 117
+      },
+      "households" : {
+         "ch4" : 57,
+         "co2" : 73697,
+         "no" : 3,
+         "gwp" : 75709
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 334,
+         "no" : 0,
+         "gwp" : 339
+      },
+      "service" : {
+         "ch4" : 0,
+         "co2" : 1618,
+         "no" : 0,
+         "gwp" : 1646
+      },
+      "industry" : {
+         "ch4" : 2,
+         "co2" : 64870,
+         "no" : 1,
+         "gwp" : 65240
+      },
+      "agriculture" : {
+         "ch4" : 1537,
+         "co2" : 23017,
+         "no" : 160,
+         "gwp" : 104984
+      },
+      "utilities" : {
+         "ch4" : 28,
+         "co2" : 14524,
+         "no" : 0,
+         "gwp" : 15185
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 7360,
+         "no" : 0,
+         "gwp" : 7461
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 794,
+         "no" : 0,
+         "gwp" : 808
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 723,
+         "no" : 0,
+         "gwp" : 735
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 263,
+         "no" : 0,
+         "gwp" : 267
+      }
+   },
+   "2008" : {
+      "government" : {
+         "ch4" : 3,
+         "co2" : 3842,
+         "no" : 0,
+         "gwp" : 3933
+      },
+      "transport" : {
+         "ch4" : 3,
+         "co2" : 20786,
+         "no" : 1,
+         "gwp" : 21024
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 58,
+         "no" : 0,
+         "gwp" : 59
+      },
+      "households" : {
+         "ch4" : 59,
+         "co2" : 73128,
+         "no" : 3,
+         "gwp" : 75238
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 270,
+         "no" : 0,
+         "gwp" : 274
+      },
+      "service" : {
+         "ch4" : 0,
+         "co2" : 1470,
+         "no" : 0,
+         "gwp" : 1488
+      },
+      "industry" : {
+         "ch4" : 2,
+         "co2" : 92150,
+         "no" : 0,
+         "gwp" : 92317
+      },
+      "agriculture" : {
+         "ch4" : 1829,
+         "co2" : 24247,
+         "no" : 209,
+         "gwp" : 127373
+      },
+      "utilities" : {
+         "ch4" : 29,
+         "co2" : 14369,
+         "no" : 0,
+         "gwp" : 15031
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 7952,
+         "no" : 0,
+         "gwp" : 8024
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 644,
+         "no" : 0,
+         "gwp" : 654
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 630,
+         "no" : 0,
+         "gwp" : 639
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 250,
+         "no" : 0,
+         "gwp" : 253
+      }
+   },
+   "2001" : {
+      "government" : {
+         "ch4" : 2,
+         "co2" : 3301,
+         "no" : 0,
+         "gwp" : 3380
+      },
+      "transport" : {
+         "ch4" : 4,
+         "co2" : 16860,
+         "no" : 1,
+         "gwp" : 17118
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 111,
+         "no" : 0,
+         "gwp" : 113
+      },
+      "households" : {
+         "ch4" : 56,
+         "co2" : 86431,
+         "no" : 2,
+         "gwp" : 88360
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 259,
+         "no" : 0,
+         "gwp" : 266
+      },
+      "service" : {
+         "ch4" : 1,
+         "co2" : 1006,
+         "no" : 0,
+         "gwp" : 1030
+      },
+      "industry" : {
+         "ch4" : 5,
+         "co2" : 75154,
+         "no" : 0,
+         "gwp" : 75409
+      },
+      "agriculture" : {
+         "ch4" : 1869,
+         "co2" : 21229,
+         "no" : 149,
+         "gwp" : 106566
+      },
+      "utilities" : {
+         "ch4" : 446,
+         "co2" : 17931,
+         "no" : 0,
+         "gwp" : 27423
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 5678,
+         "no" : 0,
+         "gwp" : 5756
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 534,
+         "no" : 0,
+         "gwp" : 546
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 472,
+         "no" : 0,
+         "gwp" : 481
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 456,
+         "no" : 0,
+         "gwp" : 465
+      }
+   },
+   "2007" : {
+      "government" : {
+         "ch4" : 3,
+         "co2" : 4066,
+         "no" : 0,
+         "gwp" : 4176
+      },
+      "transport" : {
+         "ch4" : 3,
+         "co2" : 22535,
+         "no" : 1,
+         "gwp" : 22826
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 67,
+         "no" : 0,
+         "gwp" : 68
+      },
+      "households" : {
+         "ch4" : 63,
+         "co2" : 77702,
+         "no" : 3,
+         "gwp" : 79869
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 280,
+         "no" : 0,
+         "gwp" : 285
+      },
+      "service" : {
+         "ch4" : 0,
+         "co2" : 1574,
+         "no" : 0,
+         "gwp" : 1602
+      },
+      "industry" : {
+         "ch4" : 1,
+         "co2" : 104866,
+         "no" : 1,
+         "gwp" : 105059
+      },
+      "agriculture" : {
+         "ch4" : 1576,
+         "co2" : 21171,
+         "no" : 152,
+         "gwp" : 101307
+      },
+      "utilities" : {
+         "ch4" : 482,
+         "co2" : 13433,
+         "no" : 0,
+         "gwp" : 23595
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 7958,
+         "no" : 0,
+         "gwp" : 8066
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 667,
+         "no" : 0,
+         "gwp" : 678
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 637,
+         "no" : 0,
+         "gwp" : 647
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 275,
+         "no" : 0,
+         "gwp" : 279
+      }
+   },
+   "2002" : {
+      "government" : {
+         "ch4" : 2,
+         "co2" : 3330,
+         "no" : 0,
+         "gwp" : 3412
+      },
+      "transport" : {
+         "ch4" : 4,
+         "co2" : 15987,
+         "no" : 1,
+         "gwp" : 16235
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 102,
+         "no" : 0,
+         "gwp" : 105
+      },
+      "households" : {
+         "ch4" : 53,
+         "co2" : 87181,
+         "no" : 2,
+         "gwp" : 89068
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 283,
+         "no" : 0,
+         "gwp" : 289
+      },
+      "service" : {
+         "ch4" : 1,
+         "co2" : 1058,
+         "no" : 0,
+         "gwp" : 1083
+      },
+      "industry" : {
+         "ch4" : 5,
+         "co2" : 76404,
+         "no" : 1,
+         "gwp" : 76662
+      },
+      "agriculture" : {
+         "ch4" : 1690,
+         "co2" : 19220,
+         "no" : 140,
+         "gwp" : 97955
+      },
+      "utilities" : {
+         "ch4" : 143,
+         "co2" : 15935,
+         "no" : 0,
+         "gwp" : 19063
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 6143,
+         "no" : 0,
+         "gwp" : 6229
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 574,
+         "no" : 0,
+         "gwp" : 588
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 336,
+         "no" : 0,
+         "gwp" : 342
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 399,
+         "no" : 0,
+         "gwp" : 407
+      }
+   },
+   "2011" : {
+      "government" : {
+         "ch4" : 3,
+         "co2" : 4596,
+         "no" : 0,
+         "gwp" : 4699
+      },
+      "transport" : {
+         "ch4" : 3,
+         "co2" : 21548,
+         "no" : 1,
+         "gwp" : 21816
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 106,
+         "no" : 0,
+         "gwp" : 108
+      },
+      "households" : {
+         "ch4" : 49,
+         "co2" : 64758,
+         "no" : 2,
+         "gwp" : 66543
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 395,
+         "no" : 0,
+         "gwp" : 402
+      },
+      "service" : {
+         "ch4" : 0,
+         "co2" : 1407,
+         "no" : 0,
+         "gwp" : 1446
+      },
+      "industry" : {
+         "ch4" : 1,
+         "co2" : 72828,
+         "no" : 1,
+         "gwp" : 73106
+      },
+      "agriculture" : {
+         "ch4" : 1530,
+         "co2" : 19371,
+         "no" : 162,
+         "gwp" : 101801
+      },
+      "utilities" : {
+         "ch4" : 25,
+         "co2" : 12278,
+         "no" : 0,
+         "gwp" : 12858
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 7251,
+         "no" : 0,
+         "gwp" : 7352
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 722,
+         "no" : 0,
+         "gwp" : 734
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 660,
+         "no" : 0,
+         "gwp" : 671
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 81,
+         "no" : 0,
+         "gwp" : 83
+      }
+   },
+   "2000" : {
+      "government" : {
+         "ch4" : 3,
+         "co2" : 3407,
+         "no" : 0,
+         "gwp" : 3492
+      },
+      "transport" : {
+         "ch4" : 4,
+         "co2" : 16132,
+         "no" : 1,
+         "gwp" : 16386
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 107,
+         "no" : 0,
+         "gwp" : 109
+      },
+      "households" : {
+         "ch4" : 56,
+         "co2" : 85828,
+         "no" : 2,
+         "gwp" : 87749
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 261,
+         "no" : 0,
+         "gwp" : 268
+      },
+      "service" : {
+         "ch4" : 1,
+         "co2" : 901,
+         "no" : 0,
+         "gwp" : 923
+      },
+      "industry" : {
+         "ch4" : 5,
+         "co2" : 33912,
+         "no" : 0,
+         "gwp" : 34179
+      },
+      "agriculture" : {
+         "ch4" : 1726,
+         "co2" : 19395,
+         "no" : 157,
+         "gwp" : 104219
+      },
+      "utilities" : {
+         "ch4" : 467,
+         "co2" : 16816,
+         "no" : 0,
+         "gwp" : 26743
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 5252,
+         "no" : 0,
+         "gwp" : 5325
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 548,
+         "no" : 0,
+         "gwp" : 561
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 307,
+         "no" : 0,
+         "gwp" : 313
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 467,
+         "no" : 0,
+         "gwp" : 476
+      }
+   },
+   "2006" : {
+      "government" : {
+         "ch4" : 3,
+         "co2" : 3728,
+         "no" : 0,
+         "gwp" : 3837
+      },
+      "transport" : {
+         "ch4" : 3,
+         "co2" : 17445,
+         "no" : 1,
+         "gwp" : 17683
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 117,
+         "no" : 0,
+         "gwp" : 119
+      },
+      "households" : {
+         "ch4" : 56,
+         "co2" : 84133,
+         "no" : 3,
+         "gwp" : 86132
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 184,
+         "no" : 0,
+         "gwp" : 187
+      },
+      "service" : {
+         "ch4" : 0,
+         "co2" : 1212,
+         "no" : 0,
+         "gwp" : 1233
+      },
+      "industry" : {
+         "ch4" : 5,
+         "co2" : 121466,
+         "no" : 1,
+         "gwp" : 121863
+      },
+      "agriculture" : {
+         "ch4" : 1604,
+         "co2" : 18248,
+         "no" : 131,
+         "gwp" : 92448
+      },
+      "utilities" : {
+         "ch4" : 532,
+         "co2" : 15424,
+         "no" : 0,
+         "gwp" : 26686
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 6398,
+         "no" : 0,
+         "gwp" : 6488
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 565,
+         "no" : 0,
+         "gwp" : 575
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 390,
+         "no" : 0,
+         "gwp" : 398
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 259,
+         "no" : 0,
+         "gwp" : 263
+      }
+   },
+   "2009" : {
+      "government" : {
+         "ch4" : 3,
+         "co2" : 4012,
+         "no" : 0,
+         "gwp" : 4126
+      },
+      "transport" : {
+         "ch4" : 3,
+         "co2" : 20079,
+         "no" : 1,
+         "gwp" : 20334
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 85,
+         "no" : 0,
+         "gwp" : 86
+      },
+      "households" : {
+         "ch4" : 55,
+         "co2" : 71569,
+         "no" : 3,
+         "gwp" : 73528
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 289,
+         "no" : 0,
+         "gwp" : 294
+      },
+      "service" : {
+         "ch4" : 0,
+         "co2" : 1457,
+         "no" : 0,
+         "gwp" : 1482
+      },
+      "industry" : {
+         "ch4" : 3,
+         "co2" : 67262,
+         "no" : 1,
+         "gwp" : 67576
+      },
+      "agriculture" : {
+         "ch4" : 1149,
+         "co2" : 21277,
+         "no" : 143,
+         "gwp" : 89875
+      },
+      "utilities" : {
+         "ch4" : 23,
+         "co2" : 14034,
+         "no" : 0,
+         "gwp" : 14585
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 6950,
+         "no" : 0,
+         "gwp" : 7046
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 696,
+         "no" : 0,
+         "gwp" : 708
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 678,
+         "no" : 0,
+         "gwp" : 689
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 244,
+         "no" : 0,
+         "gwp" : 248
+      }
+   },
+   "2003" : {
+      "government" : {
+         "ch4" : 3,
+         "co2" : 4013,
+         "no" : 0,
+         "gwp" : 4111
+      },
+      "transport" : {
+         "ch4" : 4,
+         "co2" : 17053,
+         "no" : 1,
+         "gwp" : 17321
+      },
+      "accomodation" : {
+         "ch4" : 0,
+         "co2" : 103,
+         "no" : 0,
+         "gwp" : 105
+      },
+      "households" : {
+         "ch4" : 52,
+         "co2" : 88400,
+         "no" : 3,
+         "gwp" : 90285
+      },
+      "rawmaterials" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "finance" : {
+         "ch4" : 0,
+         "co2" : 303,
+         "no" : 0,
+         "gwp" : 310
+      },
+      "service" : {
+         "ch4" : 1,
+         "co2" : 1128,
+         "no" : 0,
+         "gwp" : 1154
+      },
+      "industry" : {
+         "ch4" : 5,
+         "co2" : 84644,
+         "no" : 1,
+         "gwp" : 84920
+      },
+      "agriculture" : {
+         "ch4" : 1888,
+         "co2" : 18315,
+         "no" : 130,
+         "gwp" : 98194
+      },
+      "utilities" : {
+         "ch4" : 840,
+         "co2" : 15205,
+         "no" : 0,
+         "gwp" : 32960
+      },
+      "construction" : {
+         "ch4" : 0,
+         "co2" : 6623,
+         "no" : 0,
+         "gwp" : 6716
+      },
+      "other" : {
+         "ch4" : 0,
+         "co2" : 0,
+         "no" : 0,
+         "gwp" : 0
+      },
+      "culture" : {
+         "ch4" : 0,
+         "co2" : 590,
+         "no" : 0,
+         "gwp" : 603
+      },
+      "realestate" : {
+         "ch4" : 0,
+         "co2" : 345,
+         "no" : 0,
+         "gwp" : 352
+      },
+      "communication" : {
+         "ch4" : 0,
+         "co2" : 401,
+         "no" : 0,
+         "gwp" : 409
+      }
+   }
+}
