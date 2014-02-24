@@ -1,9 +1,9 @@
 (function($) {
 
   // Define the size of the canvasses
-  var margin = {top: 10, right: 10, bottom: 32, left: 37},
-      width = 280 - margin.left - margin.right,
-      height = 240 - margin.top - margin.bottom;
+  var margin = {top: 15, right: 5, bottom: 32, left: 32},
+      width = 220 - margin.left - margin.right,
+      height = 200 - margin.top - margin.bottom;
 
   $(function() {
     $('#municipality').change(function() {
@@ -40,7 +40,7 @@
     var wrapperid = '#chart-type-' + filter;
 
   var x = d3.scale.ordinal()
-      .rangeRoundBands([0, width], .1);
+      .rangeRoundBands([0, width], .3);
       
   var y = d3.scale.linear()
       .range([height, 0]);
