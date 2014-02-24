@@ -15,6 +15,6 @@ To test locally, you can use the following command to [run a static HTTP server]
 Credits
 -------
 
-Data courtesy of [Region Syddanmark og Danmarks Statistik](http://www.detgodeliv.regionsyddanmark.dk/talbank/talbank).
+Data courtesy of [Region Syddanmark and Danmarks Statistik](http://www.detgodeliv.regionsyddanmark.dk/talbank/talbank).
 
 Inspired by [Norske Utslipp](http://www.norskeutslipp.no/) (which has access to data at a greater level of detail).

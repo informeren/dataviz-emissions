@@ -1,0 +1,38 @@
+/* !Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+
+/* !Layout */
+
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+/* !Charts */
+
+.axis text {
+  font: 10px sans-serif;
+  fill: #888;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+rect.bar {
+  fill: #d00;
+}
+
+.tick text {
+  font-family: 'PT Sans', silkscreen;
+  font-size: 10px;
+}
+
+.chart-type {
+  background-color: #ccc;
+}
