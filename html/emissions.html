@@ -7,12 +7,10 @@
     <style type="text/css" media="all">@import url('./emissions.css');</style>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="./js/collapse.js"></script>
-    <script src="./js/dropdown.js"></script>
     <script src="./emissions.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -49,7 +47,6 @@
           </div>
         </div>
       </div>
-
       <div class="row emissions-type">
         <div class="col-md-3">
           <h3>CO<sub>2</sub> <small>Kuldioxid</small></h3>
@@ -60,7 +57,7 @@
           <div id="type-ch4" class="chart-type"></div>
         </div>
         <div class="col-md-3">
-          <h3>NO <small>Lattergas</small></h3>
+          <h3>NO <small>Kvælstofoxid</small></h3>
           <div id="type-no" class="chart-type"></div>
         </div>
         <div class="col-md-3">
@@ -68,28 +65,87 @@
           <div id="type-gwp" class="chart-type"></div>
         </div>
       </div>
+    </div>
 
-      <div class="row emission-source">
-        <div class="col-md-2">
-          <h4>Emissionskilde</h4>
-          <p>Ovennævnte emissioner kan henføres til forskellige energiformer, som vist på graferne til højre:</p>
-        </div>
-        <div class="col-md-2">
-          <h4>Fossile brændsler</h4>
-        </div>
-        <div class="col-md-2">
-          <h4>Vedvarende</h4>
-        </div>
-        <div class="col-md-2">
-          <h4>El</h4>
-        </div>
-        <div class="col-md-2">
-          <h4>Fjernvarme</h4>
-        </div>
-        <div class="col-md-2">
-          <h4>Andet</h4>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Emissionskilde</h2>
+          <p>Ovennævnte emissioner kan henføres til forskellige energiformer, som vist på graferne nedenfor.</p>
         </div>
       </div>
+      <section style="background-color: #eee;">
+        <div class="row emission-source-co2" style="padding-bottom: 10px; margin-bottom: 10px;">
+          <div class="col-md-3">
+            <h3 style="margin-top: 10px; margin-left: 10px;">CO<sub>2</sub> <small>Kuldioxid</small></h3>
+          </div>
+          <div class="col-md-3">
+            <h4>Fossile brændsler</h4>
+            <div id="source-fossil_fuels-co2" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Ikke-energirelateret</h4>
+            <div id="source-unrelated-co2" class="chart-type"></div>
+          </div>
+        </div>
+      </section>
+      <section style="background-color: #eee;">
+        <div class="row emission-source-ch4" style="padding-bottom: 10px; margin-bottom: 10px;">
+          <div class="col-md-3">
+            <h3 style="margin-top: 10px; margin-left: 10px;">CH<sub>4</sub> <small>Metan</small></h3>
+          </div>
+          <div class="col-md-3">
+            <h4>Fossile brændsler</h4>
+            <div id="source-fossil_fuels-ch4" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Ikke-energirelateret</h4>
+            <div id="source-unrelated-ch4" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Vedvarende energi</h4>
+            <div id="source-renewables-ch4" class="chart-type"></div>
+          </div>
+        </div>
+      </section>
+      <section style="background-color: #eee;">
+        <div class="row emission-source-no" style="padding-bottom: 10px; margin-bottom: 10px;">
+          <div class="col-md-3">
+            <h3 style="margin-top: 10px; margin-left: 10px;">NO <small>Kvælstofoxid</small></h3>
+          </div>
+          <div class="col-md-3">
+            <h4>Fossile brændsler</h4>
+            <div id="source-fossil_fuels-no" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Ikke-energirelateret</h4>
+            <div id="source-unrelated-no" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Vedvarende energi</h4>
+            <div id="source-renewables-no" class="chart-type"></div>
+          </div>
+        </div>
+      </section>
+      <section style="background-color: #eee;">
+        <div class="row emission-source-gwp" style="padding-bottom: 10px; margin-bottom: 10px;">
+          <div class="col-md-3">
+            <h3 style="margin-top: 10px; margin-left: 10px;">GWP <small>CO<sub>2</sub>-ækvivalenter</small></h3>
+          </div>
+          <div class="col-md-3">
+            <h4>Fossile brændsler</h4>
+            <div id="source-fossil_fuels-gwp" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Ikke-energirelateret</h4>
+            <div id="source-unrelated-gwp" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Vedvarende energi</h4>
+            <div id="source-renewables-gwp" class="chart-type"></div>
+          </div>
+        </div>
+      </section>
 
       <div class="row emission-industry">
       </div>
