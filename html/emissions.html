@@ -10,6 +10,7 @@
     <script src="./emissions.js"></script>
   </head>
   <body>
+    <!-- !Navigation -->
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -21,7 +22,6 @@
           </button>
           <a class="navbar-brand" href="emissions.html">Danske Udslip</a>
         </div>
-
         <div class="collapse navbar-collapse" id="navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="kort.html">Kort</a></li>
@@ -31,18 +31,120 @@
       </div>
     </nav>
 
+    <!-- !Emissions type -->
     <div class="container">
       <div class="row">
         <div class="col-md-6">
           <h2>Emissionstype</h2>
-          <p>Alle værdier er i tusinde ton.</p>
+          <p>Nedenstående grafer viser udledningen af drivhusgasser i perioden 2000-2011 fordelt på de mest hyppige typer. Alle værdier er i tusinde ton.</p>
         </div>
-        <div class="col-md-6 municipality">
-          <div class="wrapper text-right">
+        <div class="col-md-4 col-md-offset-2 filter">
+          <div class="wrapper text-center">
             Vælg kommune:
             <select id="municipality">
               <option value="all">Alle</option>
-              <option value="101">København</option>
+              <optgroup label="Populære">
+                <option value="101">København</option>
+                <option value="751">Aarhus</option>
+                <option value="461">Odense</option>
+                <option value="851">Aalborg</option>
+              </optgroup>
+              <optgroup label="Alle">
+                <option value="580">Aabenraa</option>
+                <option value="165">Albertslund</option>
+                <option value="201">Allerød</option>
+                <option value="420">Assens</option>
+                <option value="151">Ballerup</option>
+                <option value="530">Billund</option>
+                <option value="400">Bornholm</option>
+                <option value="153">Brøndby</option>
+                <option value="810">Brønderslev</option>
+                <option value="155">Dragør</option>
+                <option value="240">Egedal</option>
+                <option value="561">Esbjerg</option>
+                <option value="430">Faaborg-Midtfyn</option>
+                <option value="563">Fanø</option>
+                <option value="710">Favrskov</option>
+                <option value="320">Faxe</option>
+                <option value="210">Fredensborg</option>
+                <option value="607">Fredericia</option>
+                <option value="147">Frederiksberg</option>
+                <option value="813">Frederikshavn</option>
+                <option value="250">Frederikssund</option>
+                <option value="190">Furesø</option>
+                <option value="157">Gentofte</option>
+                <option value="159">Gladsaxe</option>
+                <option value="161">Glostrup</option>
+                <option value="253">Greve</option>
+                <option value="270">Gribskov</option>
+                <option value="376">Guldborgsund</option>
+                <option value="510">Haderslev</option>
+                <option value="260">Halsnæs</option>
+                <option value="766">Hedensted</option>
+                <option value="217">Helsingør</option>
+                <option value="163">Herlev</option>
+                <option value="657">Herning</option>
+                <option value="219">Hillerød</option>
+                <option value="860">Hjørring</option>
+                <option value="316">Holbæk</option>
+                <option value="661">Holstebro</option>
+                <option value="615">Horsens</option>
+                <option value="167">Hvidovre</option>
+                <option value="169">Høje-Taastrup</option>
+                <option value="223">Hørsholm</option>
+                <option value="756">Ikast-Brande</option>
+                <option value="183">Ishøj</option>
+                <option value="849">Jammerbugt</option>
+                <option value="326">Kalundborg</option>
+                <option value="440">Kerteminde</option>
+                <option value="621">Kolding</option>
+                <option value="259">Køge</option>
+                <option value="482">Langeland</option>
+                <option value="350">Lejre</option>
+                <option value="665">Lemvig</option>
+                <option value="360">Lolland</option>
+                <option value="173">Lyngby-Taarbæk</option>
+                <option value="825">Læsø</option>
+                <option value="846">Mariagerfjord</option>
+                <option value="410">Middelfart</option>
+                <option value="773">Morsø</option>
+                <option value="707">Norddjurs</option>
+                <option value="480">Nordfyns</option>
+                <option value="450">Nyborg</option>
+                <option value="370">Næstved</option>
+                <option value="727">Odder</option>
+                <option value="306">Odsherred</option>
+                <option value="730">Randers</option>
+                <option value="840">Rebild</option>
+                <option value="760">Ringkøbing-Skjern</option>
+                <option value="329">Ringsted</option>
+                <option value="265">Roskilde</option>
+                <option value="230">Rudersdal</option>
+                <option value="175">Rødovre</option>
+                <option value="741">Samsø</option>
+                <option value="740">Silkeborg</option>
+                <option value="746">Skanderborg</option>
+                <option value="779">Skive</option>
+                <option value="329">Slagelse</option>
+                <option value="269">Solrød</option>
+                <option value="340">Sorø</option>
+                <option value="336">Stevns</option>
+                <option value="671">Struer</option>
+                <option value="479">Svendborg</option>
+                <option value="706">Syddjurs</option>
+                <option value="540">Sønderborg</option>
+                <option value="787">Thisted</option>
+                <option value="185">Tårnby</option>
+                <option value="550">Tønder</option>
+                <option value="187">Vallensbæk</option>
+                <option value="573">Varde</option>
+                <option value="575">Vejen</option>
+                <option value="630">Vejle</option>
+                <option value="793">Vesthimmerlands</option>
+                <option value="791">Viborg</option>
+                <option value="390">Vordingborg</option>
+                <option value="492">Ærø</option>
+              </optgroup>
             </select>
           </div>
         </div>
@@ -67,17 +169,21 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- !Emissions source -->
+    <div class="container container-source">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
           <h2>Emissionskilde</h2>
           <p>Ovennævnte emissioner kan henføres til forskellige energiformer, som vist på graferne nedenfor.</p>
         </div>
       </div>
-      <section style="background-color: #eee;">
-        <div class="row emission-source-co2" style="padding-bottom: 10px; margin-bottom: 10px;">
-          <div class="col-md-3">
-            <h3 style="margin-top: 10px; margin-left: 10px;">CO<sub>2</sub> <small>Kuldioxid</small></h3>
+      <section>
+        <div class="row emission-source-co2">
+          <div class="col-md-3 description">
+            <h3>CO<sub>2</sub> <small>Kuldioxid</small></h3>
+            <p>
+              Kuldioxid kommer fra afbrænding af materiale der indeholder kulstof som fossile brændstoffer og andet organisk materiale, når der er tilstrækkelig ilt (oxygen) tilstede.
+            </p>
           </div>
           <div class="col-md-3">
             <h4>Fossile brændsler</h4>
@@ -89,10 +195,13 @@
           </div>
         </div>
       </section>
-      <section style="background-color: #eee;">
-        <div class="row emission-source-ch4" style="padding-bottom: 10px; margin-bottom: 10px;">
-          <div class="col-md-3">
-            <h3 style="margin-top: 10px; margin-left: 10px;">CH<sub>4</sub> <small>Metan</small></h3>
+      <section>
+        <div class="row emission-source-ch4">
+          <div class="col-md-3 description">
+            <h3>CH<sub>4</sub> <small>Metan</small></h3>
+            <p>
+              Metan er en drivhusgas, som er omkring 22 gange mere effektiv til drivhuseffekten end CO<sub>2</sub>. I løbet af de sidste 200 år er atmosfærens metanindhold mere end fordoblet fra 0,8 til 1,7 ppm.
+            </p>
           </div>
           <div class="col-md-3">
             <h4>Fossile brændsler</h4>
@@ -108,10 +217,13 @@
           </div>
         </div>
       </section>
-      <section style="background-color: #eee;">
-        <div class="row emission-source-no" style="padding-bottom: 10px; margin-bottom: 10px;">
-          <div class="col-md-3">
-            <h3 style="margin-top: 10px; margin-left: 10px;">NO <small>Kvælstofoxid</small></h3>
+      <section>
+        <div class="row emission-source-no">
+          <div class="col-md-3 description">
+            <h3>NO <small>Kvælstofoxid</small></h3>
+            <p>
+              Ved forbrændinger ved høje temperaturer i kraftværker og bilmotorer dannes kvælstofoxid som biprodukt. I atmosfæren reagerer det med vand og danner syreregn.
+            </p>
           </div>
           <div class="col-md-3">
             <h4>Fossile brændsler</h4>
@@ -127,10 +239,13 @@
           </div>
         </div>
       </section>
-      <section style="background-color: #eee;">
-        <div class="row emission-source-gwp" style="padding-bottom: 10px; margin-bottom: 10px;">
-          <div class="col-md-3">
-            <h3 style="margin-top: 10px; margin-left: 10px;">GWP <small>CO<sub>2</sub>-ækvivalenter</small></h3>
+      <section>
+        <div class="row emission-source-gwp">
+          <div class="col-md-3 description">
+            <h3>GWP <small>CO<sub>2</sub>-ækvivalenter</small></h3>
+            <p>
+              Global-warming potential (GWP) er en faktor, som bruges til at omregne diverse drivhusgassers klimapåvirkning til effekten af den samme mænge kuldioxid.
+            </p>
           </div>
           <div class="col-md-3">
             <h4>Fossile brændsler</h4>

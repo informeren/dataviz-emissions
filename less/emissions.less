@@ -2,8 +2,27 @@
 
 /* !User interface */
 
-.municipality .wrapper {
-  margin-top: 24px;
+.filter .wrapper {
+  margin-top: 21px;
+  padding: 7px 0;
+  font-size: 14px;
+  background-color: #d00;
+  color: #fff;
+}
+
+.container-source section {
+  background-color: #eee;
+}
+.container-source section .row {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.container-source section div.description h3 {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.container-source section div.description p {
+  margin-left: 10px;
 }
 
 footer {
@@ -13,11 +32,6 @@ footer {
 }
 
 /* !Charts */
-
-.axis text {
-  font: 10px sans-serif;
-  fill: #888;
-}
 
 .axis path,
 .axis line {
@@ -31,10 +45,11 @@ rect.bar {
 }
 
 .tick text {
-  font-family: 'PT Sans', sans-serif;
+  font-family: @font-family-sans-serif;
   font-size: 10px;
+  fill: #888;
 }
 
 .chart-type {
-  background-color: #ccc;
+  background-color: #ddd;
 }
