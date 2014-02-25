@@ -8,9 +8,9 @@
     height: 200 - 15 - 32, // margin-top, margin-bottom
   };
   dimensions.source = {
-    margin: {top: 10, right: 5, bottom: 24, left: 32},
+    margin: {top: 15, right: 5, bottom: 24, left: 32},
     width: 220 - 32 - 5,   // margin-left, margin-right
-    height: 100 - 10 - 24, // margin-top, margin-bottom
+    height: 100 - 15 - 24, // margin-top, margin-bottom
   };
 
   // Configure all bar charts on the page.
@@ -79,8 +79,10 @@
 
   function chart(type, id, filter1, filter2, width, height) {
     var wrapperid = '#chart-' + type + '-' + filter1;
+    var legendid = '#legend-' + type + '-' + filter1;
     if (filter2 != '') {
       wrapperid += '-' + filter2;
+      legendid += '-' + filter2;
     }
 
 	  var x = d3.scale.ordinal()
@@ -119,8 +121,10 @@
         }
       });
 
+      var ymax = d3.max(data, function(d) { return d.value; });
+
       x.domain(data.map(function(d) { return d.key; }));
-      y.domain([0, d3.max(data, function(d) { return d.value; })]);
+      y.domain([0, ymax]);
 
       var graph = d3.select(wrapperid)
       var bars = graph.selectAll('rect.bar').data(data);
@@ -158,9 +162,28 @@
            .call(yAxis)
            .selectAll('.y.axis text')
            .text(function(d) {
-             return d/1000;
+             $.each([1000000, 100000, 10000, 1000], function(i, value) {
+               if (ymax > value) {
+                 d = d/value;
+                 $(legendid).html('Enhed: ' + addSeparator(value) + ' ton');
+                 return false;
+               }
+               else {
+                 $(legendid).html('Enhed: 1 ton');
+               }
+             });
+             return d;
            });
     });
+  }
+
+  function addSeparator(number) {
+    number = number + '';
+    var re = /(\d+)(\d{3})/;
+    while (re.test(number)) {
+      number = number.replace(re, '$1.$2');
+    }
+    return number;
   }
 
 })(jQuery);
