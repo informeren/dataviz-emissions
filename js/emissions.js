@@ -13,53 +13,51 @@
     height: 100 - 10 - 24, // margin-top, margin-bottom
   };
 
+  // Configure all bar charts on the page.
+  var barcharts = new Array();
+  $.each(['co2', 'ch4', 'no', 'gwp'], function(i, filter) {
+    barcharts.push({
+      type: 'type',
+      municipality: 'all',
+      filter1: filter,
+      filter2: '',
+      width: dimensions.type.width,
+      height: dimensions.type.height,
+      margin: dimensions.type.margin,
+    });
+  });
+  $.each(['fossil_fuels', 'unrelated', 'renewables'], function(i, filter1) {
+    $.each(['co2', 'ch4', 'no', 'gwp'], function(i, filter2) {
+      barcharts.push({
+        type: 'source',
+        municipality: 'all',
+        filter1: filter1,
+        filter2: filter2,
+        width: dimensions.source.width,
+        height: dimensions.source.height,
+        margin: dimensions.source.margin,
+      });
+    });
+  });
+  barcharts.splice(12, 1); // remove the renewables/co2 combination
+
   $(function() {
-    $('#municipality').change(function() {
-      chart('type', this.value, 'co2', '', dimensions.type);
-      chart('type', this.value, 'ch4', '', dimensions.type);
-      chart('type', this.value, 'no', '', dimensions.type);
-      chart('type', this.value, 'gwp', '', dimensions.type);
-
-      chart('source', this.value, 'fossil_fuels', 'co2', dimensions.source);
-      chart('source', this.value, 'unrelated', 'co2', dimensions.source);
-
-      chart('source', this.value, 'fossil_fuels', 'ch4', dimensions.source);
-      chart('source', this.value, 'unrelated', 'ch4', dimensions.source);
-      chart('source', this.value, 'renewables', 'ch4', dimensions.source);
-
-      chart('source', this.value, 'fossil_fuels', 'no', dimensions.source);
-      chart('source', this.value, 'unrelated', 'no', dimensions.source);
-      chart('source', this.value, 'renewables', 'no', dimensions.source);
-
-      chart('source', this.value, 'fossil_fuels', 'gwp', dimensions.source);
-      chart('source', this.value, 'unrelated', 'gwp', dimensions.source);
-      chart('source', this.value, 'renewables', 'gwp', dimensions.source);
+    $('#filter').change(function() {
+      var id = this.value;
+      $.each(barcharts, function(i, barchart) {
+        chart(barchart.type, id, barchart.filter1, barchart.filter2, barchart.width, barchart.height);
+      });
     });
 
-    // TODO: run through init_chart's, then just fire the change event
+    // Initialize bar charts.
+    $.each(barcharts, function(i, chart) {
+      init_chart(chart.type, chart.filter1, chart.filter2, chart.width, chart.height, chart.margin);
+    });
 
-    init_chart('type', 'co2', '', dimensions.type); // TODO: turn this into an array, have straight width,height on it
-    init_chart('type', 'ch4', '', dimensions.type);
-    init_chart('type', 'no', '', dimensions.type);
-    init_chart('type', 'gwp', '', dimensions.type);
-
-    init_chart('source', 'fossil_fuels', 'co2', dimensions.source);
-    init_chart('source', 'unrelated', 'co2', dimensions.source);
-
-    init_chart('source', 'fossil_fuels', 'ch4', dimensions.source);
-    init_chart('source', 'unrelated', 'ch4', dimensions.source);
-    init_chart('source', 'renewables', 'ch4', dimensions.source);
-
-    init_chart('source', 'fossil_fuels', 'no', dimensions.source);
-    init_chart('source', 'unrelated', 'no', dimensions.source);
-    init_chart('source', 'renewables', 'no', dimensions.source);
-
-    init_chart('source', 'fossil_fuels', 'gwp', dimensions.source);
-    init_chart('source', 'unrelated', 'gwp', dimensions.source);
-    init_chart('source', 'renewables', 'gwp', dimensions.source);
+    $('#filter').change();
   });
 
-  function init_chart(type, filter1, filter2, dimensions) {
+  function init_chart(type, filter1, filter2, width, height, margin) {
     var containerid = '#' + type + '-' + filter1;
     var wrapperid = 'chart-' + type + '-' + filter1;
 
@@ -70,21 +68,16 @@
 
     d3.select(containerid)
       .insert('svg')
-      .attr('width', dimensions.width + dimensions.margin.left + dimensions.margin.right)
-      .attr('height', dimensions.height + dimensions.margin.top + dimensions.margin.bottom)
+      .attr('width', width + margin.left + margin.right)
+      .attr('height', height + margin.top + margin.bottom)
       .append('g')
-      .attr('transform', 'translate(' + dimensions.margin.left + ',' + dimensions.margin.top + ')')
+      .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
       .attr('id', wrapperid)
       .append('g')
       .attr('class', 'y axis');
-
-    chart(type, 'all', filter1, filter2, dimensions);
   }
 
-  function chart(type, id, filter1, filter2, dimensions) {
-    var width = dimensions.width;
-    var height = dimensions.height;
-
+  function chart(type, id, filter1, filter2, width, height) {
     var wrapperid = '#chart-' + type + '-' + filter1;
     if (filter2 != '') {
       wrapperid += '-' + filter2;
@@ -92,7 +85,7 @@
 
 	  var x = d3.scale.ordinal()
 	      .rangeRoundBands([0, width], .3);
-      
+
     var y = d3.scale.linear()
         .range([height, 0]);
 
@@ -135,14 +128,14 @@
       bars.enter()
           .append('rect')
           .attr('class', 'bar');
-  
+
       bars.exit()
           .transition()
           .duration(300)
           .ease('exp')
           .attr('width', 0)
           .remove();
-  
+
       bars.transition()
           .duration(300)
           .ease('quad')
@@ -157,7 +150,7 @@
            .call(xAxis)
            .selectAll('.x.axis text')
            .attr('transform', 'rotate(90)translate(14, -6)');
-  
+
       graph.select('.y.axis')
            .transition()
            .duration(300)
