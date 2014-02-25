@@ -12,6 +12,12 @@ To test locally, you can use the following command to [run a static HTTP server]
     python -m SimpleHTTPServer 8000
 
 
+TODO
+----
+
+Use `d3.format` to add SI prefixes to y-axis.
+
+
 Credits
 -------
 
