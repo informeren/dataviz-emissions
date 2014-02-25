@@ -20,11 +20,6 @@
     width: basewidth - 32 - 5, // margin-left, margin-right
     height: 100 - 10 - 24,     // margin-top, margin-bottom
   };
-  dimensions.industry = {
-    margin: {top: 10, right: 10, bottom: 10, left: 10},
-    width: 139 - 10 - 10,  // margin-left, margin-right
-    height: 139 - 10 - 10, // margin-top, margin-bottom
-  };
 
   // Configure all bar charts on the page.
   var barcharts = new Array();
@@ -54,42 +49,17 @@
   });
   barcharts.splice(12, 1); // remove the renewables/co2 combination
 
-  var percentages = new Array();
-  $.each(['agriculture', 'rawmaterials', 'industry', 'utilities', 'construction', 'culture'], function(i, item) {
-    percentages.push({
-      type: 'industry',
-      municipality: 'all',
-      filter: item,
-      width: dimensions.industry.width,
-      height: dimensions.industry.height,
-      margin: dimensions.industry.margin,
-    });
-  });
-
   $(function() {
     $('#filter').change(function() {
       var id = this.value;
-/*
       $.each(barcharts, function(i, barchart) {
         chart(barchart.type, id, barchart.filter1, barchart.filter2, barchart.width, barchart.height);
       });
-*/
-
-      $.each(percentages, function(i, pct) {
-        percentage(pct.type, id, pct.filter, pct.width, pct.height);
-      });
-
     });
 
     // Initialize bar charts.
-/*
     $.each(barcharts, function(i, chart) {
       init_chart(chart.type, chart.filter1, chart.filter2, chart.width, chart.height, chart.margin);
-    });
-*/
-
-    $.each(percentages, function(i, pct) {
-      init_percentage(pct.type, pct.filter, pct.width, pct.height, pct.margin);
     });
 
     $('#filter').change();
@@ -211,58 +181,6 @@
              });
              return d;
            });
-    });
-  }
-
-  function init_percentage(type, filter, width, height, margin) {
-    var containerid = '#' + type + '-' + filter;
-    var wrapperid = 'chart-' + type + '-' + filter;
-
-    d3.select(containerid)
-      .insert('svg')
-      .attr('width', width + margin.left + margin.right)
-      .attr('height', height + margin.top + margin.bottom)
-      .append('g')
-      .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
-      .attr('id', wrapperid);
-  }
-
-  function percentage(type, id, filter, width, height) {
-    var wrapperid = '#chart-' + type + '-' + filter;
-
-
-    d3.json('./emissions/' + type + '/' + id + '.json', function (error, json) {
-      if (error) return console.warn(error);
-
-      var total = 0;
-      $.each(json['2011'], function (industry, emissions) {
-        total += parseInt(emissions.co2);
-      });
-
-      var current = parseInt(json['2011'][filter].co2);
-      var percentage = Math.round(current / total * 100);
-      var data = [percentage];
-
-      var graph = d3.select(wrapperid)
-      var number = graph.selectAll('text').data(data);
-
-      number.enter()
-            .append('text')
-            .text(0)
-            .attr('x', 20)
-            .attr('y', 10)
-            .attr('class', 'txt') // text-anchor?
-            ;
-
-      number.transition()
-            .duration(300)
-            .tween('text', function(d) {
-              var i = d3.interpolate(this.textContent.replace(/\s%/ig, ''), d);
-
-              return function(t) {
-                this.textContent = Math.round(i(t)) + ' %';
-              };
-            });
     });
   }
 
