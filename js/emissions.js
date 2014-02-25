@@ -8,9 +8,9 @@
     height: 200 - 15 - 32, // margin-top, margin-bottom
   };
   dimensions.source = {
-    margin: {top: 15, right: 5, bottom: 24, left: 32},
+    margin: {top: 10, right: 5, bottom: 24, left: 32},
     width: 220 - 32 - 5,   // margin-left, margin-right
-    height: 100 - 15 - 24, // margin-top, margin-bottom
+    height: 100 - 10 - 24, // margin-top, margin-bottom
   };
 
   // Configure all bar charts on the page.
@@ -122,7 +122,6 @@
       });
 
       var ymax = d3.max(data, function(d) { return d.value; });
-
       x.domain(data.map(function(d) { return d.key; }));
       y.domain([0, ymax]);
 
