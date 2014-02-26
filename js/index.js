@@ -19,14 +19,17 @@
   });
 
   function init_chart(width, height, margin) {
-    d3.select('#stacked')
+    var wrapper = d3.select('#stacked')
       .append('svg')
       .attr('width', width + margin.left + margin.right)
       .attr('height', height + margin.top + margin.bottom)
       .append('g')
       .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
-      .attr('id', 'wrapper')
-      .append('g')
+      .attr('id', 'wrapper');
+
+    wrapper.insert('g')
+      .attr('class', 'x axis');
+    wrapper.insert('g')
       .attr('class', 'y axis');
   }
 
@@ -71,24 +74,50 @@
       y.domain([0, d3.max(data, function(d) { return d[3].y1; })]);
 
       var graph = d3.select('#wrapper');
-      var bars = graph.selectAll('rect.bar').data(data)
+      var bars = graph.selectAll('g.wrapper').data(data, function(d) { return data.indexOf(d)});
 
       bars.enter()
         .append('g')
-        .attr('class', 'bar')
-        .attr('transform', function(d) { return 'translate(' + x(d[0].year) + ',0)'; });
-
-      bars.selectAll('rect')
-        .data(function(d) { return d; })
-        .enter().append('rect')
+        .attr('class', 'wrapper')
+        .attr('transform', function(d) { return 'translate(' + x(d[0].year) + ',0)'; })
+        .attr('y', 0)
         .attr('width', x.rangeBand())
-        .attr('y', function(d) { return y(d.y1); })
-        .attr('height', function(d) { return y(d.y) - y(d.y1); })
-        .style('fill', function(d) { return color(d.name); });
+        .attr('height', height)
+        .attr('fill', '#feddef')
+        ;
 
-      graph.append('g')
-        .attr('class', 'x axis')
-        .attr('transform', 'translate(0,' + height + ')')
+      bars.exit()
+        .remove();
+
+      bars.transition()
+        .duration(7000)
+        .ease('exp')
+        .attr('width', x.rangeBand())
+        ;
+
+     var sub = bars.selectAll('rect.wrapper').data(function(d) { return d; });
+
+     sub.enter()
+       .append('rect')
+       .attr('class', 'sub')
+       .attr('width', x.rangeBand())
+       .attr('y', function(d) { return y(d.y1); })
+       .attr('height', function(d) { return y(d.y) - y(d.y1); })
+       .style('fill', function(d) { return color(d.name); })
+
+       ;
+
+     sub.exit()
+       .remove();
+
+     sub.transition()
+        .duration(7000)
+        .ease('exp')
+        .attr('width', x.rangeBand())
+        ;
+
+      graph.select('.x.axis')
+        .attr('transform', 'translate(0, ' + height + ')')
         .call(xAxis);
 
       graph.select('.y.axis')
