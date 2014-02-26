@@ -9,7 +9,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -31,8 +31,8 @@
       "fileType" : 4096
     },
     "\/html\/industries.js" : {
-      "ignoreWasSetByUser" : 1,
-      "ignore" : 1,
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/html\/industries.js",
@@ -59,26 +59,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/bootstrap\/docs\/getting-started.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/getting-started.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/bootstrap\/_gh_pages\/examples\/screenshots\/sticky-footer.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/screenshots\/sticky-footer.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/screenshots\/sticky-footer.jpg",
-      "initialSize" : 25056,
-      "fileType" : 4096
-    },
     "\/lib\/bootstrap\/docs\/_includes\/nav-migration.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -95,7 +75,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -105,6 +85,26 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/lib\/bootstrap\/_gh_pages\/examples\/screenshots\/sticky-footer.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/screenshots\/sticky-footer.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/screenshots\/sticky-footer.jpg",
+      "initialSize" : 25056,
+      "fileType" : 4096
+    },
+    "\/lib\/bootstrap\/docs\/getting-started.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/getting-started.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/bootstrap\/less\/print.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/print.less",
@@ -112,7 +112,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -150,8 +150,8 @@
       "fileType" : 2048
     },
     "\/lib\/bootstrap\/_gh_pages\/assets\/js\/raw-files.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/raw-files.min.js",
@@ -167,7 +167,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -198,8 +198,8 @@
       "fileType" : 4096
     },
     "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/filesaver.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/filesaver.js",
@@ -224,7 +224,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -264,6 +264,15 @@
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/examples\/screenshots\/dashboard.jpg",
       "initialSize" : 105375,
       "fileType" : 4096
+    },
+    "\/html\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/html\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/bootstrap\/_gh_pages\/examples\/screenshots\/sign-in.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -320,6 +329,17 @@
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/starter-template\/starter-template.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/html\/index.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/html\/index.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/html\/index-ck.js",
+      "fileType" : 64
     },
     "\/lib\/bootstrap\/docs\/examples\/starter-template\/starter-template.css" : {
       "ignoreWasSetByUser" : 0,
@@ -384,7 +404,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -419,7 +439,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -447,41 +467,37 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/lib\/bootstrap\/less\/tooltip.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/tooltip.less",
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/css\/tooltip.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
-    "\/lib\/bootstrap\/_gh_pages\/examples\/navbar\/navbar.css" : {
+    "\/js\/temp.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/navbar\/navbar.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/js\/temp.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/temp-ck.js",
+      "fileType" : 64
     },
     "\/lib\/bootstrap\/js\/tests\/unit\/alert.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/alert.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/alert-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/index.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/js\/index.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/html\/index.js",
       "fileType" : 64
     },
     "\/lib\/bootstrap\/docs\/examples\/navbar\/index.html" : {
@@ -503,6 +519,32 @@
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/examples\/screenshots\/navbar-fixed.jpg",
       "initialSize" : 37932,
       "fileType" : 4096
+    },
+    "\/lib\/bootstrap\/less\/tooltip.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/tooltip.less",
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/css\/tooltip.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/bootstrap\/_gh_pages\/examples\/navbar\/navbar.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/navbar\/navbar.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/lib\/bootstrap\/docs\/assets\/img\/devices.png" : {
       "ignoreWasSetByUser" : 0,
@@ -534,8 +576,8 @@
       "fileType" : 2048
     },
     "\/lib\/bootstrap\/js\/tests\/unit\/button.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/button.js",
@@ -544,17 +586,6 @@
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/button-ck.js",
       "fileType" : 64
     },
-    "\/lib\/bootstrap\/docs\/jade\/customizer-nav.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/jade\/customizer-nav.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/jade\/customizer-nav.html",
-      "fileType" : 512
-    },
     "\/lib\/bootstrap\/less\/forms.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/forms.less",
@@ -562,7 +593,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -580,6 +611,17 @@
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/getting-started\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/lib\/bootstrap\/docs\/jade\/customizer-nav.jade" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/jade\/customizer-nav.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/jade\/customizer-nav.html",
+      "fileType" : 512
     },
     "\/lib\/bootstrap\/_gh_pages\/javascript\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -600,8 +642,8 @@
       "fileType" : 2048
     },
     "\/lib\/bootstrap\/js\/modal.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/modal.js",
@@ -655,7 +697,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -674,18 +716,9 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/lib\/bootstrap\/docs\/dist\/css\/bootstrap-theme.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/dist\/css\/bootstrap-theme.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/lib\/bootstrap\/js\/transition.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/transition.js",
@@ -695,8 +728,8 @@
       "fileType" : 64
     },
     "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customize.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customize.min.js",
@@ -704,6 +737,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customize.min-ck.js",
       "fileType" : 64
+    },
+    "\/lib\/bootstrap\/docs\/dist\/css\/bootstrap-theme.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/dist\/css\/bootstrap-theme.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/lib\/bootstrap\/docs\/assets\/css\/pygments-manni.css" : {
       "ignoreWasSetByUser" : 0,
@@ -723,16 +765,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/lib\/bootstrap\/js\/tests\/unit\/affix.js" : {
+    "\/lib\/bootstrap\/_gh_pages\/examples\/starter-template\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/affix.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/affix-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/starter-template\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/bootstrap\/less\/media.less" : {
       "ieCompatibility" : 1,
@@ -741,7 +781,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -752,8 +792,8 @@
       "debugStyle" : 0
     },
     "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/uglify.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/uglify.min.js",
@@ -762,18 +802,20 @@
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/uglify.min-ck.js",
       "fileType" : 64
     },
-    "\/lib\/bootstrap\/_gh_pages\/examples\/starter-template\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/lib\/bootstrap\/js\/tests\/unit\/affix.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/starter-template\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/affix.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/affix-ck.js",
+      "fileType" : 64
     },
     "\/lib\/bootstrap\/docs\/assets\/js\/ie8-responsive-file-warning.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/ie8-responsive-file-warning.js",
@@ -791,15 +833,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/bootstrap\/_gh_pages\/examples\/navbar-fixed-top\/navbar-fixed-top.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/navbar-fixed-top\/navbar-fixed-top.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/lib\/bootstrap\/docs\/_includes\/footer.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -808,6 +841,15 @@
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/_includes\/footer.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/lib\/bootstrap\/docs\/examples\/offcanvas\/offcanvas.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/examples\/offcanvas\/offcanvas.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/lib\/bootstrap\/_gh_pages\/examples\/non-responsive\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -836,12 +878,12 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/bootstrap\/docs\/examples\/offcanvas\/offcanvas.css" : {
+    "\/lib\/bootstrap\/_gh_pages\/examples\/navbar-fixed-top\/navbar-fixed-top.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/examples\/offcanvas\/offcanvas.css",
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/navbar-fixed-top\/navbar-fixed-top.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -855,8 +897,8 @@
       "fileType" : 16
     },
     "\/lib\/bootstrap\/js\/affix.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/affix.js",
@@ -886,6 +928,17 @@
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/screenshots\/jumbotron.jpg",
       "initialSize" : 101215,
       "fileType" : 4096
+    },
+    "\/lib\/bootstrap\/_gh_pages\/assets\/js\/ie8-responsive-file-warning-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/ie8-responsive-file-warning-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/ie8-responsive-file-warning-ck-ck.js",
+      "fileType" : 64
     },
     "\/lib\/bootstrap\/docs\/examples\/screenshots\/sticky-footer-navbar.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -934,7 +987,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -956,8 +1009,8 @@
       "fileType" : 4096
     },
     "\/lib\/bootstrap\/docs\/examples\/offcanvas\/offcanvas.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/examples\/offcanvas\/offcanvas.js",
@@ -975,15 +1028,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/bootstrap\/_gh_pages\/examples\/sticky-footer-navbar\/sticky-footer-navbar.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/sticky-footer-navbar\/sticky-footer-navbar.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/lib\/bootstrap\/docs\/_includes\/nav-getting-started.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -992,6 +1036,15 @@
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/_includes\/nav-getting-started.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/lib\/bootstrap\/_gh_pages\/examples\/sticky-footer-navbar\/sticky-footer-navbar.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/sticky-footer-navbar\/sticky-footer-navbar.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/lib\/bootstrap\/docs\/examples\/signin\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1021,8 +1074,8 @@
       "fileType" : 2048
     },
     "\/lib\/bootstrap\/js\/tests\/unit\/collapse.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/collapse.js",
@@ -1038,7 +1091,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -1071,8 +1124,8 @@
       "fileType" : 4096
     },
     "\/lib\/bootstrap\/js\/tests\/unit\/scrollspy.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/scrollspy.js",
@@ -1123,7 +1176,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -1143,8 +1196,8 @@
       "fileType" : 2048
     },
     "\/lib\/bootstrap\/js\/carousel.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/carousel.js",
@@ -1221,8 +1274,8 @@
       "fileType" : 2048
     },
     "\/lib\/bootstrap\/Gruntfile.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/Gruntfile.js",
@@ -1256,7 +1309,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -1267,8 +1320,8 @@
       "debugStyle" : 0
     },
     "\/lib\/bootstrap\/dist\/js\/bootstrap.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/dist\/js\/bootstrap.js",
@@ -1304,7 +1357,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -1360,21 +1413,21 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/bootstrap\/_gh_pages\/examples\/carousel\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/carousel\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/bootstrap\/_gh_pages\/examples\/navbar\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/navbar\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/bootstrap\/_gh_pages\/examples\/carousel\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/carousel\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1396,14 +1449,38 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/bootstrap\/docs\/_includes\/nav-components.html" : {
+    "\/lib\/bootstrap\/_gh_pages\/assets\/js\/docs.min-ck.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/_includes\/nav-components.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/docs.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/docs.min-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customizer-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customizer-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customizer-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/jszip.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/jszip.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/jszip.min-ck.js",
+      "fileType" : 64
     },
     "\/lib\/bootstrap\/_gh_pages\/customize\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -1414,6 +1491,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/bootstrap\/docs\/_includes\/nav-components.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/_includes\/nav-components.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/bootstrap\/less\/normalize.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/normalize.less",
@@ -1421,7 +1507,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -1430,17 +1516,6 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/jszip.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/jszip.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/jszip.min-ck.js",
-      "fileType" : 64
     },
     "\/lib\/bootstrap\/_gh_pages\/examples\/screenshots\/blog.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1463,8 +1538,8 @@
       "fileType" : 16
     },
     "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/blob.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/blob.js",
@@ -1474,8 +1549,8 @@
       "fileType" : 64
     },
     "\/lib\/bootstrap\/_gh_pages\/assets\/js\/docs.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/docs.min.js",
@@ -1504,23 +1579,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/bootstrap\/less\/pagination.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/pagination.less",
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/css\/pagination.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/html\/emissions.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1531,6 +1589,23 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/html\/emissions-ck.js",
       "fileType" : 64
+    },
+    "\/lib\/bootstrap\/less\/pagination.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/pagination.less",
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/css\/pagination.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/js\/emissions.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1559,7 +1634,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -1570,8 +1645,8 @@
       "debugStyle" : 0
     },
     "\/lib\/bootstrap\/js\/tests\/vendor\/jquery.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/vendor\/jquery.js",
@@ -1590,8 +1665,8 @@
       "fileType" : 16
     },
     "\/lib\/bootstrap\/js\/tests\/unit\/tooltip.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/tooltip.js",
@@ -1621,8 +1696,8 @@
       "fileType" : 8192
     },
     "\/lib\/bootstrap\/docs\/dist\/js\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/dist\/js\/bootstrap.min.js",
@@ -1687,6 +1762,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/lib\/bootstrap\/_gh_pages\/examples\/offcanvas\/offcanvas-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/offcanvas\/offcanvas-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/offcanvas\/offcanvas-ck-ck.js",
+      "fileType" : 64
+    },
     "\/lib\/bootstrap\/less\/pager.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/pager.less",
@@ -1694,7 +1780,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -1744,6 +1830,15 @@
       "initialSize" : 6654,
       "fileType" : 8192
     },
+    "\/lib\/bootstrap\/_gh_pages\/migration\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/migration\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/bootstrap\/docs\/examples\/screenshots\/sticky-footer.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1754,15 +1849,6 @@
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/examples\/screenshots\/sticky-footer.jpg",
       "initialSize" : 25056,
       "fileType" : 4096
-    },
-    "\/lib\/bootstrap\/_gh_pages\/migration\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/migration\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/lib\/bootstrap\/less\/component-animations.less" : {
       "ieCompatibility" : 1,
@@ -1782,8 +1868,8 @@
       "debugStyle" : 0
     },
     "\/lib\/bootstrap\/js\/tests\/unit\/dropdown.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/dropdown.js",
@@ -1802,8 +1888,8 @@
       "fileType" : 16
     },
     "\/lib\/bootstrap\/docs\/assets\/js\/raw-files.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/raw-files.min.js",
@@ -1818,7 +1904,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/html\/emissions.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/lib\/bootstrap\/docs\/examples\/carousel\/carousel.css" : {
@@ -1837,7 +1923,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -1894,7 +1980,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -1916,8 +2002,8 @@
       "fileType" : 4096
     },
     "\/lib\/bootstrap\/js\/tests\/unit\/carousel.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/carousel.js",
@@ -1935,17 +2021,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/lib\/bootstrap\/js\/dropdown.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/dropdown.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/js\/dropdown-ck.js",
-      "fileType" : 64
-    },
     "\/lib\/bootstrap\/_gh_pages\/examples\/screenshots\/navbar-fixed.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1957,35 +2032,37 @@
       "initialSize" : 37932,
       "fileType" : 4096
     },
-    "\/lib\/bootstrap\/docs\/examples\/jumbotron-narrow\/index.html" : {
+    "\/lib\/bootstrap\/js\/dropdown.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/examples\/jumbotron-narrow\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/bootstrap\/_gh_pages\/assets\/js\/ie8-responsive-file-warning.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/ie8-responsive-file-warning.js",
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/dropdown.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/ie8-responsive-file-warning-ck.js",
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/js\/dropdown-ck.js",
       "fileType" : 64
     },
     "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customizer.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customizer.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customizer-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/bootstrap\/_gh_pages\/assets\/js\/ie8-responsive-file-warning.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/ie8-responsive-file-warning.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/ie8-responsive-file-warning-ck.js",
       "fileType" : 64
     },
     "\/lib\/bootstrap\/docs\/examples\/jumbotron-narrow\/jumbotron-narrow.css" : {
@@ -1996,6 +2073,15 @@
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/examples\/jumbotron-narrow\/jumbotron-narrow.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/lib\/bootstrap\/docs\/examples\/jumbotron-narrow\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/examples\/jumbotron-narrow\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/bootstrap\/_gh_pages\/examples\/sticky-footer\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2031,7 +2117,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2042,8 +2128,8 @@
       "debugStyle" : 0
     },
     "\/lib\/bootstrap\/_gh_pages\/dist\/js\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/dist\/js\/bootstrap.min.js",
@@ -2053,8 +2139,8 @@
       "fileType" : 64
     },
     "\/lib\/bootstrap\/grunt\/shrinkwrap.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/grunt\/shrinkwrap.js",
@@ -2070,7 +2156,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2079,6 +2165,17 @@
       "outputStyle" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customize.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customize.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/customize.min-ck-ck.js",
+      "fileType" : 64
     },
     "\/lib\/bootstrap\/docs\/customize.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2089,9 +2186,20 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/bootstrap\/docs\/jade\/customizer-variables.jade" : {
+    "\/lib\/bootstrap\/_gh_pages\/assets\/js\/raw-files.min-ck.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/raw-files.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/raw-files.min-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/bootstrap\/docs\/jade\/customizer-variables.jade" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/jade\/customizer-variables.jade",
@@ -2130,8 +2238,8 @@
       "fileType" : 2048
     },
     "\/lib\/bootstrap\/js\/tab.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tab.js",
@@ -2141,8 +2249,8 @@
       "fileType" : 64
     },
     "\/lib\/bootstrap\/js\/popover.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/popover.js",
@@ -2158,9 +2266,9 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "shouldRunBless" : 0,
       "hidden" : 0,
       "strictMath" : 0,
@@ -2200,8 +2308,8 @@
       "fileType" : 4096
     },
     "\/lib\/bootstrap\/js\/tests\/unit\/popover.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/popover.js",
@@ -2211,8 +2319,8 @@
       "fileType" : 64
     },
     "\/lib\/bootstrap\/js\/tests\/unit\/phantom.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/phantom.js",
@@ -2222,8 +2330,8 @@
       "fileType" : 64
     },
     "\/lib\/bootstrap\/dist\/js\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/dist\/js\/bootstrap.min.js",
@@ -2233,8 +2341,8 @@
       "fileType" : 64
     },
     "\/lib\/bootstrap\/_gh_pages\/examples\/offcanvas\/offcanvas.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/offcanvas\/offcanvas.js",
@@ -2244,8 +2352,8 @@
       "fileType" : 64
     },
     "\/lib\/bootstrap\/docs\/assets\/js\/customizer.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/customizer.js",
@@ -2292,6 +2400,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
+    "\/lib\/bootstrap\/_gh_pages\/dist\/js\/bootstrap.min-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/dist\/js\/bootstrap.min-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/dist\/js\/bootstrap.min-ck-ck.js",
+      "fileType" : 64
+    },
     "\/lib\/bootstrap\/docs\/examples\/sticky-footer-navbar\/sticky-footer-navbar.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2301,26 +2420,26 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/lib\/bootstrap\/docs\/assets\/js\/docs.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/docs.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/docs.min-ck.js",
-      "fileType" : 64
-    },
     "\/lib\/bootstrap\/js\/tests\/vendor\/qunit.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/vendor\/qunit.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/vendor\/qunit-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/bootstrap\/_gh_pages\/assets\/js\/application.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/application.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/application-ck.js",
       "fileType" : 64
     },
     "\/lib\/bootstrap\/_gh_pages\/examples\/sticky-footer-navbar\/index.html" : {
@@ -2331,6 +2450,17 @@
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/examples\/sticky-footer-navbar\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/lib\/bootstrap\/docs\/assets\/js\/docs.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/docs.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/docs.min-ck.js",
+      "fileType" : 64
     },
     "\/less\/bootstrap.less" : {
       "ieCompatibility" : 1,
@@ -2349,17 +2479,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/bootstrap\/_gh_pages\/assets\/js\/application.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/application.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/application-ck.js",
-      "fileType" : 64
-    },
     "\/lib\/bootstrap\/less\/type.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/type.less",
@@ -2367,7 +2486,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2389,8 +2508,8 @@
       "fileType" : 4096
     },
     "\/lib\/bootstrap\/js\/scrollspy.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/scrollspy.js",
@@ -2411,8 +2530,8 @@
       "fileType" : 4096
     },
     "\/lib\/bootstrap\/js\/alert.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/alert.js",
@@ -2446,7 +2565,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2457,8 +2576,8 @@
       "debugStyle" : 0
     },
     "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/holder.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/holder.js",
@@ -2474,7 +2593,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2514,8 +2633,8 @@
       "fileType" : 2048
     },
     "\/lib\/bootstrap\/grunt\/bs-glyphicons-data-generator.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/grunt\/bs-glyphicons-data-generator.js",
@@ -2525,8 +2644,8 @@
       "fileType" : 64
     },
     "\/lib\/bootstrap\/docs\/assets\/js\/customize.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/customize.min.js",
@@ -2536,8 +2655,8 @@
       "fileType" : 64
     },
     "\/lib\/bootstrap\/grunt\/bs-lessdoc-parser.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/grunt\/bs-lessdoc-parser.js",
@@ -2553,7 +2672,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2564,8 +2683,8 @@
       "debugStyle" : 0
     },
     "\/lib\/bootstrap\/js\/button.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/button.js",
@@ -2595,14 +2714,25 @@
       "fileType" : 4096
     },
     "\/lib\/bootstrap\/grunt\/bs-raw-files-generator.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/grunt\/bs-raw-files-generator.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/grunt\/bs-raw-files-generator-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/bootstrap\/_gh_pages\/assets\/js\/application-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/application-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/_gh_pages\/assets\/js\/application-ck-ck.js",
       "fileType" : 64
     },
     "\/lib\/bootstrap\/_gh_pages\/about\/index.html" : {
@@ -2614,26 +2744,9 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/bootstrap\/less\/dropdowns.less" : {
-      "ieCompatibility" : 1,
-      "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/dropdowns.less",
-      "outputAbbreviatedPath" : "\/lib\/bootstrap\/css\/dropdowns.css",
-      "outputPathIsSetByUser" : 0,
-      "strictUnits" : 0,
-      "relativeURLS" : 0,
-      "ignore" : 0,
-      "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
-      "shouldRunBless" : 0,
-      "hidden" : 0,
-      "strictMath" : 0,
-      "outputStyle" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/lib\/bootstrap\/docs\/assets\/js\/application.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/application.js",
@@ -2643,8 +2756,8 @@
       "fileType" : 64
     },
     "\/lib\/bootstrap\/js\/tooltip.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tooltip.js",
@@ -2653,6 +2766,23 @@
       "outputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tooltip-ck.js",
       "fileType" : 64
     },
+    "\/lib\/bootstrap\/less\/dropdowns.less" : {
+      "ieCompatibility" : 1,
+      "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/dropdowns.less",
+      "outputAbbreviatedPath" : "\/lib\/bootstrap\/css\/dropdowns.css",
+      "outputPathIsSetByUser" : 0,
+      "strictUnits" : 0,
+      "relativeURLS" : 0,
+      "ignore" : 1,
+      "strictImports" : 0,
+      "ignoreWasSetByUser" : 0,
+      "shouldRunBless" : 0,
+      "hidden" : 0,
+      "strictMath" : 0,
+      "outputStyle" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/lib\/bootstrap\/less\/tables.less" : {
       "ieCompatibility" : 1,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/less\/tables.less",
@@ -2660,7 +2790,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2686,7 +2816,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2703,7 +2833,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2754,8 +2884,8 @@
       "fileType" : 2048
     },
     "\/lib\/bootstrap\/js\/tests\/unit\/modal.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/modal.js",
@@ -2791,7 +2921,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2808,9 +2938,9 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
-      "ignoreWasSetByUser" : 0,
+      "ignoreWasSetByUser" : 1,
       "shouldRunBless" : 0,
       "hidden" : 0,
       "strictMath" : 0,
@@ -2819,8 +2949,8 @@
       "debugStyle" : 0
     },
     "\/lib\/bootstrap\/js\/tests\/unit\/tab.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/js\/tests\/unit\/tab.js",
@@ -2845,7 +2975,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2871,7 +3001,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2891,8 +3021,8 @@
       "fileType" : 2048
     },
     "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/less.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/bootstrap\/docs\/assets\/js\/vendor\/less.min.js",
@@ -2930,7 +3060,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2965,7 +3095,7 @@
       "outputPathIsSetByUser" : 0,
       "strictUnits" : 0,
       "relativeURLS" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "strictImports" : 0,
       "ignoreWasSetByUser" : 0,
       "shouldRunBless" : 0,
@@ -2979,11 +3109,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
+      "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/js\/industries.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/html\/industries.js",
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/industries-ck.js",
       "fileType" : 64
     }
   },
@@ -2992,28 +3122,28 @@
       "type" : 1,
       "position" : 0,
       "linkedFileAbbreviatedPath" : "\/lib\/bootstrap\/js\/collapse.js",
-      "baseFileAbbreviatedPath" : "\/js\/emissions.js",
+      "baseFileAbbreviatedPath" : "\/js\/index.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 1,
       "position" : 1,
       "linkedFileAbbreviatedPath" : "\/lib\/bootstrap\/js\/dropdown.js",
-      "baseFileAbbreviatedPath" : "\/js\/emissions.js",
+      "baseFileAbbreviatedPath" : "\/js\/index.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 1,
       "position" : 0,
       "linkedFileAbbreviatedPath" : "\/lib\/bootstrap\/js\/collapse.js",
-      "baseFileAbbreviatedPath" : "\/js\/industries.js",
+      "baseFileAbbreviatedPath" : "\/js\/emissions.js",
       "followForSyntaxChecking" : 1
     },
     {
       "type" : 1,
       "position" : 1,
       "linkedFileAbbreviatedPath" : "\/lib\/bootstrap\/js\/dropdown.js",
-      "baseFileAbbreviatedPath" : "\/js\/industries.js",
+      "baseFileAbbreviatedPath" : "\/js\/emissions.js",
       "followForSyntaxChecking" : 1
     }
   ],
