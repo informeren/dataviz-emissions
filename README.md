@@ -15,7 +15,8 @@ To test locally, you can use the following command to [run a static HTTP server]
 TODO
 ----
 
-Use `d3.format` to add SI prefixes to y-axis.
+* Use `d3.format` to add SI prefixes to y-axis.
+* Add graphs for energy usage and energy production
 
 
 Credits
