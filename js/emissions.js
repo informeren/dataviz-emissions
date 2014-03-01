@@ -1,7 +1,7 @@
 (function($) {
 
   // TODO: Don't show graphs with no data.
-  // TODO: Should we cache JSON files locally?
+  // TODO: Use array.forEach to loop over data elements.
 
   var basewidth = 220;
   if ($(window).width() < 400) {
@@ -87,10 +87,9 @@
 
   function chart(type, id, filter1, filter2, width, height) {
     var wrapperid = '#chart-' + type + '-' + filter1;
-    var legendid = '#legend-' + type + '-' + filter1;
+
     if (filter2 != '') {
       wrapperid += '-' + filter2;
-      legendid += '-' + filter2;
     }
 
 	  var x = d3.scale.ordinal()
@@ -111,7 +110,8 @@
         .outerTickSize(0)
         .tickPadding(0)
         .orient('left')
-        .ticks(5, 'd');
+        .ticks(5, 'd')
+        .tickFormat(d3.format('.2s'));
 
     d3.json('./emissions/' + type + '/' + id + '.json', function (error, json) {
       if (error) return console.warn(error);
@@ -129,31 +129,23 @@
         }
       });
 
-      var ymax = d3.max(data, function(d) { return d.value; });
       x.domain(data.map(function(d) { return d.key; }));
-      y.domain([0, ymax]);
+      y.domain([0, d3.max(data, function(d) { return d.value; })]);
 
       var graph = d3.select(wrapperid)
       var bars = graph.selectAll('rect.bar').data(data);
 
       bars.enter()
           .append('rect')
-          .attr('class', 'bar');
-
-      bars.exit()
-          .transition()
-          .duration(300)
-          .ease('exp')
-          .attr('width', 0)
-          .remove();
+          .attr('class', 'bar')
+          .attr('x', function(d) { return x(d.key); })
+          .attr('width', x.rangeBand());
 
       bars.transition()
           .duration(300)
           .ease('quad')
-          .attr('x', function(d) { return x(d.key); })
-          .attr('y', function(d) { return y(d.value); })
           .attr('height', function(d) { return height - y(d.value); })
-          .attr('width', x.rangeBand());
+          .attr('y', function(d) { return y(d.value); });
 
       graph.append('g')
            .attr('class', 'x axis')
@@ -166,33 +158,7 @@
            .transition()
            .duration(300)
            .ease('exp')
-           .call(yAxis)
-           .selectAll('.y.axis text')
-           .text(function(d) {
-             $.each([1000000, 100000, 10000, 1000], function(i, value) {
-               if (ymax > value) {
-                 d = d/value;
-                 $(legendid).html('Enhed: ' + addSeparator(value) + ' ton');
-                 return false;
-               }
-               else {
-                 $(legendid).html('Enhed: 1 ton');
-               }
-             });
-             return d;
-           });
+           .call(yAxis);
     });
   }
-
-  // !Utility functions
-
-  function addSeparator(number) {
-    number = number + '';
-    var re = /(\d+)(\d{3})/;
-    while (re.test(number)) {
-      number = number.replace(re, '$1.$2');
-    }
-    return number;
-  }
-
 })(jQuery);

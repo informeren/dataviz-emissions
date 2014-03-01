@@ -1,6 +1,6 @@
 (function($) {
 
-  var dimensions = new Object();
+  var dimensions = {};
   dimensions = {
     margin: {top: 20, right:  60, bottom: 30, left: 40},
     width: 940 - 40 - 60,  // margin-left, margin-right
@@ -35,86 +35,78 @@
 
   function chart(id, width, height) {
     var x = d3.scale.ordinal().rangeRoundBands([0, width], .1);
-    var y = d3.scale.linear().rangeRound([height, 0]);
-
-    var color = d3.scale.ordinal().range(['#252525', '#d00', '#737373', '#969696']);
+    var y = d3.scale.linear().range([height, 0]);
 
     var xAxis = d3.svg.axis()
-        .scale(x)
-        .innerTickSize(0)
-        .outerTickSize(0)
-        .orient('bottom');
+      .scale(x)
+      .innerTickSize(0)
+      .outerTickSize(0)
+      .orient('bottom');
 
     var yAxis = d3.svg.axis()
-        .scale(y)
-        .innerTickSize(0)
-        .outerTickSize(0)
-        .tickPadding(0)
-        .orient('left')
-        .ticks(5, 'd')
-        .tickFormat(d3.format('.2s'));
+      .scale(y)
+      .innerTickSize(0)
+      .outerTickSize(0)
+      .tickPadding(0)
+      .orient('left')
+      .ticks(5, 'd')
+      .tickFormat(d3.format('.2s'));
+
+    var gasses = ['co2', 'ch4', 'no', 'gwp'];
+
+    var color = d3.scale.ordinal().range(['#252525', '#d00', '#737373', '#969696']);
+    color.domain(gasses);
+
+    var years = d3.scale.ordinal().rangePoints([0,11]);
+    years.domain([2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011]);
 
     d3.json('./emissions/type/' + id + '.json', function (error, json) {
-      if (error) return console.warn(error);
+      if (error) { return console.warn(error) };
 
-      color.domain(['co2', 'ch4', 'no', 'gwp']);
-
-      var data = new Array();
-      $.each(json, function(year, emissions) {
-        prev = 0;
-
-        var item = color.domain().map(function(name) {
-          return {year: year, name: name, y: prev, y1: prev += +emissions[name]};
+      var data = [];
+      for (var year in json) {
+        color.domain().forEach(function(type) {
+          if (typeof data[gasses.indexOf(type)] === 'undefined') {
+            data[gasses.indexOf(type)] = [];
+          }
+          data[gasses.indexOf(type)].push({
+            x: years(year),
+            y: json[year][type],
+            year: year,
+            name: type,
+          });
         });
+      }
 
-        data.push(item);
-      });
+      data = d3.layout.stack()(data);
 
-      x.domain(data.map(function(d) { return d[0].year; }));
-      y.domain([0, d3.max(data, function(d) { return d[3].y1; })]);
+      x.domain(data[0].map(function(d) { return d.year; }));
+      y.domain([0, d3.max(data, function(d) { return d3.max(d, function(e) { return e.y + e.y0; }); }) ]);
 
       var graph = d3.select('#wrapper');
-      var bars = graph.selectAll('g.wrapper').data(data, function(d) { return data.indexOf(d)});
+      var layers = graph.selectAll('g.layer').data(data);
+
+      layers.enter()
+        .append('g')
+        .style('fill', function(d, i) { return color(i); })
+        .attr('class', 'layer');
+
+      var bars = layers.selectAll('rect.stacked').data(function(d) { return d; });
 
       bars.enter()
-        .append('g')
-        .attr('class', 'wrapper')
-        .attr('transform', function(d) { return 'translate(' + x(d[0].year) + ',0)'; })
-        .attr('y', 0)
+        .append('rect')
+        .attr('class', 'stacked')
         .attr('width', x.rangeBand())
-        .attr('height', height)
-        .attr('fill', '#feddef')
-        ;
-
-      bars.exit()
-        .remove();
+        .attr('x', function(d) { return x(d.year); })
+        .attr('y', 350)
+        .attr('height', 0);
 
       bars.transition()
-        .duration(7000)
-        .ease('exp')
-        .attr('width', x.rangeBand())
-        ;
-
-     var sub = bars.selectAll('rect.wrapper').data(function(d) { return d; });
-
-     sub.enter()
-       .append('rect')
-       .attr('class', 'sub')
-       .attr('width', x.rangeBand())
-       .attr('y', function(d) { return y(d.y1); })
-       .attr('height', function(d) { return y(d.y) - y(d.y1); })
-       .style('fill', function(d) { return color(d.name); })
-
-       ;
-
-     sub.exit()
-       .remove();
-
-     sub.transition()
-        .duration(7000)
-        .ease('exp')
-        .attr('width', x.rangeBand())
-        ;
+        .delay(function(d, i) { return i * 20; })
+        .duration(300)
+        .ease('quad')
+        .attr('y', function(d) { return y(d.y) + y(d.y0) - height; })
+        .attr('height', function(d) { return height - y(d.y); });
 
       graph.select('.x.axis')
         .attr('transform', 'translate(0, ' + height + ')')
@@ -123,11 +115,11 @@
       graph.select('.y.axis')
         .transition()
         .duration(300)
-        .ease('exp')
-        .call(yAxis)
+        .ease('quad')
+        .call(yAxis);
 
       legend = graph.selectAll('.legend')
-        .data(color.domain().slice().reverse())
+        .data(gasses)
         .enter().append('g')
         .attr('class', 'legend')
         .attr('transform', function(d, i) { return 'translate(0,' + i * 20 + ')'; });
@@ -144,6 +136,7 @@
         .attr('dy', '.35em')
         .style('text-anchor', 'end')
         .text(function(d) { return d; });
-   });
+
+    });
   }
 })(jQuery);
