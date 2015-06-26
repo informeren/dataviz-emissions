@@ -4,28 +4,30 @@
   dimensions = {
     margin: {top: 20, right:  60, bottom: 30, left: 40},
     width: 940 - 40 - 60,  // margin-left, margin-right
-    height: 400 - 20 - 30, // margin-top, margin-bottom
+    height: 200 - 20 - 30, // margin-top, margin-bottom
   };
 
   $(function() {
     $('#filter').change(function() {
       var id = this.value;
-      chart(id, dimensions.width, dimensions.height);
+      chart('stacked-co2-gwp', ['co2', 'gwp'], id, dimensions.width, dimensions.height);
+      chart('stacked-ch4-no', ['ch4', 'no'], id, dimensions.width, dimensions.height);
     });
 
-    init_chart(dimensions.width, dimensions.height, dimensions.margin);
+    init_chart('stacked-co2-gwp', dimensions.width, dimensions.height, dimensions.margin);
+    init_chart('stacked-ch4-no', dimensions.width, dimensions.height, dimensions.margin);
 
     $('#filter').change();
   });
 
-  function init_chart(width, height, margin) {
-    var wrapper = d3.select('#stacked')
+  function init_chart(element, width, height, margin) {
+    var wrapper = d3.select('#' + element)
       .append('svg')
       .attr('width', width + margin.left + margin.right)
       .attr('height', height + margin.top + margin.bottom)
       .append('g')
       .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
-      .attr('id', 'wrapper');
+      .attr('id', element + '-wrapper');
 
     wrapper.insert('g')
       .attr('class', 'x axis');
@@ -33,7 +35,7 @@
       .attr('class', 'y axis');
   }
 
-  function chart(id, width, height) {
+  function chart(element, gasses, id, width, height) {
     var x = d3.scale.ordinal().rangeRoundBands([0, width], .1);
     var y = d3.scale.linear().range([height, 0]);
 
@@ -52,9 +54,7 @@
       .ticks(5, 'd')
       .tickFormat(d3.format('.2s'));
 
-    var gasses = ['co2', 'ch4', 'no', 'gwp'];
-
-    var color = d3.scale.ordinal().range(['#252525', '#d00', '#737373', '#969696']);
+    var color = d3.scale.ordinal().range(['#252525', '#d00']); //'#737373', '#969696'
     color.domain(gasses);
 
     var years = d3.scale.ordinal().rangePoints([0,11]);
@@ -83,7 +83,7 @@
       x.domain(data[0].map(function(d) { return d.year; }));
       y.domain([0, d3.max(data, function(d) { return d3.max(d, function(e) { return e.y + e.y0; }); }) ]);
 
-      var graph = d3.select('#wrapper');
+      var graph = d3.select('#' + element + '-wrapper');
       var layers = graph.selectAll('g.layer').data(data);
 
       layers.enter()

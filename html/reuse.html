@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Danske Udslip</title>
+    <title>Danske Udslip – Drivhusgasser</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style type="text/css" media="all">@import url('./emissions.css');</style>
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
-    <script src="./index.js"></script>
+    <script src="./barchart.js"></script>
   </head>
   <body>
 
@@ -25,7 +25,7 @@
         </div>
         <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="emissions.html">Drivhusgasser</a></li>
+            <li class="active"><a href="emissions.html">Drivhusgasser</a></li>
             <li><a href="industries.html">Brancher</a></li>
           </ul>
         </div>
@@ -36,8 +36,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2>Danske Udslip</h2>
-          <p>Klik på de to links i menuen for at se forskellige præsentationer af data.</p>
+          <h2>Drivhusgasser</h2>
+          <p>Nedenstående grafer viser udledningen af drivhusgasser i perioden 2000-2011 fordelt på de mest hyppige typer. Brug dropdown-menuen til højre for at se tal for din kommune.</p>
         </div>
         <div class="col-md-4 col-md-offset-2 filter">
           <div class="wrapper text-center">
@@ -151,20 +151,118 @@
         </div>
       </div>
       <div class="row emissions-type">
-        <div class="col-md-12">
-          <h3>Udledning af kuldioxid og GWP</h3>
-          <div id="stacked-co2-gwp" class="chart-stacked"></div>
+        <div class="col-md-3">
+          <h3>CO<sub>2</sub> <small>Kuldioxid</small></h3>
+          <div id="type-co2" class="chart-type"></div>
         </div>
-      </div>
-      <div class="row emissions-type">
-        <div class="col-md-12">
-          <h3>Udledning af metan og kvælstofoxid</h3>
-          <div id="stacked-ch4-no" class="chart-stacked"></div>
+        <div class="col-md-3">
+          <h3>CH<sub>4</sub> <small>Metan</small></h3>
+          <div id="type-ch4" class="chart-type"></div>
+        </div>
+        <div class="col-md-3">
+          <h3>NO <small>Kvælstofoxid</small></h3>
+          <div id="type-no" class="chart-type"></div>
+        </div>
+        <div class="col-md-3">
+          <h3>GWP <small>CO<sub>2</sub>-ækvivalenter</small></h3>
+          <div id="type-gwp" class="chart-type"></div>
         </div>
       </div>
     </div>
 
-    <!-- !Emissions front page -->
+    <!-- !Emissions source -->
+    <div class="container container-source">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Emissionskilde</h2>
+          <p>Ovennævnte emissioner kan henføres til forskellige energiformer, som vist på graferne nedenfor.</p>
+        </div>
+      </div>
+      <section>
+        <div class="row emission-source-co2">
+          <div class="col-md-3 description">
+            <h3>CO<sub>2</sub> <small>Kuldioxid</small></h3>
+            <p>
+              Kuldioxid kommer fra afbrænding af materiale der indeholder kulstof som fossile brændstoffer og andet organisk materiale, når der er tilstrækkelig ilt tilstede.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h4>Fossile brændsler</h4>
+            <div id="source-fossil_fuels-co2" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Ikke-energirelateret</h4>
+            <div id="source-unrelated-co2" class="chart-type"></div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row emission-source-ch4">
+          <div class="col-md-3 description">
+            <h3>CH<sub>4</sub> <small>Metan</small></h3>
+            <p>
+              Metan er en drivhusgas, som bidrager 22 gange mere til drivhuseffekten end CO<sub>2</sub>. I løbet af de sidste 200 år er atmosfærens metanindhold mere end fordoblet fra 0,8 til 1,7 ppm.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h4>Fossile brændsler</h4>
+            <div id="source-fossil_fuels-ch4" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Ikke-energirelateret</h4>
+            <div id="source-unrelated-ch4" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Vedvarende energi</h4>
+            <div id="source-renewables-ch4" class="chart-type"></div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row emission-source-no">
+          <div class="col-md-3 description">
+            <h3>NO <small>Kvælstofoxid</small></h3>
+            <p>
+              Ved forbrændinger ved høje temperaturer i kraftværker og bilmotorer dannes kvælstofoxid som biprodukt. I atmosfæren reagerer det med vand og danner syreregn.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h4>Fossile brændsler</h4>
+            <div id="source-fossil_fuels-no" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Ikke-energirelateret</h4>
+            <div id="source-unrelated-no" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Vedvarende energi</h4>
+            <div id="source-renewables-no" class="chart-type"></div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="row emission-source-gwp">
+          <div class="col-md-3 description">
+            <h3>GWP <small>CO<sub>2</sub>-ækvivalenter</small></h3>
+            <p>
+              Global-warming potential (GWP) er en faktor, som bruges til at omregne diverse drivhusgassers klimapåvirkning til effekten af den samme mænge kuldioxid.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h4>Fossile brændsler</h4>
+            <div id="source-fossil_fuels-gwp" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Ikke-energirelateret</h4>
+            <div id="source-unrelated-gwp" class="chart-type"></div>
+          </div>
+          <div class="col-md-3">
+            <h4>Vedvarende energi</h4>
+            <div id="source-renewables-gwp" class="chart-type"></div>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <footer>
       <div class="container">

@@ -2,6 +2,7 @@
 
   // TODO: Don't show graphs with no data.
   // TODO: Use array.forEach to loop over data elements.
+  // TODO: x-axis gets added on each re-draw!
 
   var basewidth = 220;
   if ($(window).width() < 400) {
@@ -22,6 +23,7 @@
   };
 
   // Configure all bar charts on the page.
+  // TODO: move this to a separata .json file?
   var barcharts = new Array();
   $.each(['co2', 'ch4', 'no', 'gwp'], function(i, filter) {
     barcharts.push({
