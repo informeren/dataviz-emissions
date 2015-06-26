@@ -25,3 +25,10 @@ Credits
 Data courtesy of [Region Syddanmark and Danmarks Statistik](http://www.detgodeliv.regionsyddanmark.dk/talbank/talbank).
 
 Inspired by [Norske Utslipp](http://www.norskeutslipp.no/) (which has access to data at a greater level of detail).
+
+
+http://stackoverflow.com/questions/978740/javascript-how-to-detect-if-document-has-loaded-ie-7-firefox-3
+http://stackoverflow.com/questions/16823757/d3-selectelement-not-working-when-code-above-the-html-element
+
+http://bost.ocks.org/mike/chart/time-series-chart.js
+http://misoproject.com/d3-chart/
